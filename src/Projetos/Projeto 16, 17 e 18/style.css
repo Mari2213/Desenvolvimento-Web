@@ -1,0 +1,43 @@
+#back {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+    padding: 50px;
+}
+
+#back h1 {
+    color: #333;
+    font-size: 2em;
+    margin: 0 0 20px 0;
+}
+
+#btn {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+#btn:hover {
+    background-color: #555;
+}
+
+#btnBack {
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+#btnBack:hover {
+    background-color: #555;
+}
