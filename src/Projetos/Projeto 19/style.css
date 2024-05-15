@@ -22,7 +22,7 @@ p {
 #guessInput {
     background-color: #fff;
     border: 1px solid #000000;
-    border-radius: 5px;
+    border-radius: 15px;
     color: #333;
     font-size: 1.2em;
     margin: 0 auto;
@@ -33,7 +33,7 @@ p {
 #guessBtn {
     background-color: #333;
     border: 1px solid #000000;
-    border-radius: 5px;
+    border-radius: 15px;
     color: #fff;
     font-size: 1.2em;
     height: 30px;
