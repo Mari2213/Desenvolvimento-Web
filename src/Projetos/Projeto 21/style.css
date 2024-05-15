@@ -1,0 +1,47 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 35px;
+    margin: 0 0 20px;
+}
+
+p {
+    color: #666;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+#age-input {
+    color: #000000;
+    font-size: 20px;
+    width: 200px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+#check-btn {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    width: 100px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#check-btn:hover {
+    background-color: #071427;
+}
+
+#result-message {
+    color: #333;
+    font-size: 20px;
+    margin: 20px 0;
+}
