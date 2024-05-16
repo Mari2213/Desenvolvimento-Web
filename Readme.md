@@ -1,4 +1,4 @@
-#1 - Fundamentos de HTML: tags, atributos e estruturação básica de páginas
+# 1 - Fundamentos de HTML: tags, atributos e estruturação básica de páginas
 2 - Estilização de páginas com CSS: seletores, propriedades e estilização de elementos, classes e id's
 3 - Responsividade: como criar layouts que se adaptem a diferentes tamanhos de tela
 4 - Criação de formulários: como criar formulários interativos utilizando HTML e CSS
