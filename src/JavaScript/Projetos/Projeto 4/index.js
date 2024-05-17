@@ -46,3 +46,15 @@ function compareNumbers() {
     document.getElementById("guessField").setAttribute("Readonly", "Readonly");
   }
 }
+
+/*function encontrarMenorImpar(array) {
+  let menorImpar = Infinity;
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] % 2 !== 0 && array[i] < menorImpar) {
+      menorImpar = array[i];
+    }
+  }
+  return menorImpar;
+}
+
+console.log(encontrarMenorImpar([5, 7, 9, 11, 13, 15, 17, 19]));*/
