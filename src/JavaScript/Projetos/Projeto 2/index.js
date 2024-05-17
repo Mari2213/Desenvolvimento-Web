@@ -5,7 +5,7 @@ function formatMoney(value) {
 }
 
 function formatSplit(value) {
-  if (value == 1) return value + " person";
+  if (value === "1") return value + " person";
   return value + " people";
 }
 
