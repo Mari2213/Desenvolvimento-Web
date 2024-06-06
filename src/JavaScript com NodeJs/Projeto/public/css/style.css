@@ -80,23 +80,76 @@
   border: 1px solid transparent;
 }
 
-#search-form button:hover {
+#search-form button:hover, .list-group-item a:hover {
   background-color: #fff;
   color: #f03e3e;
   border-color: #f03e3e;
 }
 
+#jobs-container {
+  margin-bottom: 8px;
+  /*border: 1px solid #ccc;*/
+}
+
 #job-list .list-group-item {
   margin-bottom: 5px;
   border: 1px solid #ccc;
+  padding: 15px 80px;
+  color: #212529;
+  height: 120px;
 }
 
-#job-list .list-group-item p{
+#job-list .list-group-item p {
   font-size: 14px;
   margin-bottom: 5px;
 }
 
-#job-list .list-group-item.new-job{
+#job-list .list-group-item.new-job {
   border: none;
   background-color: #e8e7de;
 }
+
+#job-list-title {
+  margin-bottom: 35px;
+}
+
+.list-group-item img {
+  width: 95px;
+  height: 70px;
+  border: 1px solid #212529;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  left: -40px;
+  top: calc(50% - 35px);
+}
+
+.list-group-item a {
+  position: absolute;
+  right: 20px;
+  top: 35px;
+  height: 50px;
+  line-height: 35px;
+  background-color: #f03e3e;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  color: #fff;
+}
+
+.new-job-label {
+  background-color: #f03e3e;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 20px;
+  position: absolute;
+  right: 250px;
+  top: 50px;
+  display: none;
+}
+
+.new-job .new-job-label {
+  display: block;
+}
+
