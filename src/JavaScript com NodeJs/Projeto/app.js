@@ -1,5 +1,4 @@
 const express = require("express");
-const exphbs = require("express-handlebars");
 const app = express();
 const path = require("path");
 const db = require("./db/connection");
@@ -14,8 +13,13 @@ app.listen(PORT, function () {
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.set("views", path.join(__dirname, "views"));
-app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+const { engine } = require("express-handlebars");
+app.engine("handlebars", engine({ defaultLayout: "main" }));
+// const hbs = require("express-handlebars").create();
+// app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
+
+app.use(express.static(path.join(__dirname, "public")));
 
 db.authenticate()
   .then(() => {
@@ -27,7 +31,7 @@ db.authenticate()
   });
 
 app.get("/", (req, res) => {
-  res.send("Está funcionando 2");
+  res.render("index");
 });
 
 app.use("/jobs", require("./routes/jobs"));
